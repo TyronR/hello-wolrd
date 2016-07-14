@@ -4,5 +4,6 @@ using namespace std;
 
 int main()
 {
-cout<<"bye"<<endl;
+for(int i =0 ;i<10;;i++)
+cout<<"bye"<<endl;// output ten times
 }
