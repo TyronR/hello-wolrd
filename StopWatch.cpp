@@ -9,7 +9,7 @@ using namespace std;
 double stopWatch::getProcessTime()
 {
 	clock_t time = clock();
-	return static_cast<double>(time)/CLOCKS_PER_SEC;
+	return static_cast<double>(time)/CLOCKS_PER_SEC;//hi
 }
 
 void stopWatch::start()
